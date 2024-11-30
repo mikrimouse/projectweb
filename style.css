@@ -1,27 +1,33 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-main {
-    padding: 20px;
-    text-align: center;
-}
-
-.ad-container {
-    margin: 20px auto;
-    padding: 10px;
-    border: 1px dashed #ccc;
-    background: #fff;
-}
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: lime; /* Zeleni tekst */
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .matrix-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .column {
+    position: absolute;
+    bottom: 0;
+    color: lime;
+    font-size: 24px;
+    white-space: nowrap;
+  }
+  
